@@ -5,48 +5,46 @@
   </head>
 
   <style>
-  h1 {
-    color: orange;
-    text-indent : 10px;
-    line-height : 1px;
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
-  p {
-    color: grey;
-    text-indent: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .flex-container{
-    display: flex;
-    background-color: white;
-    margin: 20px;
-    flex-direction: row-reverse;
-  }
-  .flex-container > div {
-    background-color: orange;
-    color: white;
-    margin: 1px;
-    padding: 10px 20px;
-    font-size: 20px;
-  }
+    h1 {
+      color: orange;
+      text-indent: 10px;
+      line-height: 1px;
+      font-family: 'Lucida Console', 'Courier New', monospace;
+    }
+    p {
+      color: grey;
+      text-indent: 70px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex-container {
+      display: flex;
+      background-color: white;
+      margin: 20px;
+      flex-direction: row-reverse;
+    }
+    .flex-container > div {
+      background-color: orange;
+      color: white;
+      margin: 1px;
+      padding: 10px 20px;
+      font-size: 20px;
+    }
 
-  .container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
-  
-  .top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
+    .container {
+      position: relative;
+      text-align: center;
+    }
 
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
   </style>
 
   <body>
@@ -54,20 +52,15 @@
     <p>Have your punchline here</p>
     <div class="flex-container">
       <div>Contact us</div>
-      <div>Tech</div> 
+      <div>Tech</div>
       <div>About us</div>
       <div>Home</div>
-     </div>
+    </div>
 
-     <img src="green.jpg" alt="Trulli" width="500" height="333">
-
-     <div class="container">
-     <img src="green.jpg" style="width:100%;">
-     <div class="top-right">Top Right</div>
-     <div class="bottom-left">Bottom Left</div>
-   </div>
-
-
+    <div class="container">
+      <img src="green.jpg" alt="Green" width="500" height="333" />
+      <div class="top-right">Top Right</div>
+      <div class="bottom-left">Bottom Left</div>
+    </div>
   </body>
-
 </html>
